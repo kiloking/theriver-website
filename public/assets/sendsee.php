@@ -4,6 +4,7 @@
 	$namess = $_POST['name'] ;
 	$tel = $_POST['tel'];
 	$email = $_POST['mail'] ;
+	$message = $_POST['message'] ;
 	$main_district = $_POST['main_district'] ;
 	$sub_district = $_POST['sub_district'] ;
 	// $house_types = $_POST['house_types']; 
@@ -13,7 +14,8 @@
 		"聯絡電話:". $tel."\n".   
 		"居住縣市:". $main_district."\n".   
 		"居住地區:". $sub_district."\n".   
-		"電子信箱:". $email."\n";
+		"電子信箱:". $email."\n".
+		"留言訊息:". $message."\n";
 		// "房屋類型:". $house_types."\n".
 		// "居住區域:". $area."\n";
 	mb_internal_encoding("UTF-8");
